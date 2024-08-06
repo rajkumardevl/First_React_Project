@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: "Jost", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav li {
+  padding: 0.5rem;
+}
+
+nav li:hover {
+  background-color: #e0e0e0;
+  border-radius: 4px;
+}
+
+nav button {
+  padding: 0.5rem 1rem;
+  background-color: #0d6efd;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 2px solid #0d6efd;
+}
+
+nav button:hover {
+  background-color: #0057d9;
+  border-color: #0057d9;
+  color: #fff;
+  
+}
+
+nav img{
+  height: 70px;
+  width: auto;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+
+.hero_image img {
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .5));
+  transition: 0.3s;
+}
+
+.hero_image img:hover {
+  transform: scale(1.1);
+}
+
+.hero_content {
+  height: auto;
+  width: 50%;
+}
+
+.hero_content h1 {
+  font-size: 3rem;
+}
+
+.hero_content button {
+  padding: 1rem 2rem;
+  background-color: transparent;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 2px solid #0d6efd;
+}
+
+.hero_content button:hover {
+  background-color: #0057d9;
+  border-color: #0057d9;
+  color: #fff;
+}
+
+.two_button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+}
